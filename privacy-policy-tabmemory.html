@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — TabMemory</title>
+  <style>
+    body { font-family: -apple-system, sans-serif; max-width: 700px; margin: 60px auto; padding: 0 24px; color: #222; line-height: 1.7; }
+    h1 { font-size: 28px; margin-bottom: 4px; }
+    h2 { font-size: 18px; margin-top: 36px; }
+    p, li { font-size: 15px; color: #444; }
+    .date { color: #888; font-size: 14px; margin-bottom: 40px; }
+    a { color: #1a73e8; }
+  </style>
+</head>
+<body>
+  <h1>Política de Privacidad</h1>
+  <p class="date">Última actualización: junio 2026</p>
+
+  <h2>¿Qué datos recopila TabMemory?</h2>
+  <p>TabMemory registra los siguientes datos de forma local en tu navegador:</p>
+  <ul>
+    <li>Los dominios (ej: youtube.com) de las pestañas que visitás</li>
+    <li>El tiempo que pasás activo en cada dominio</li>
+    <li>Las metas de tiempo que configurás manualmente</li>
+    <li>Tu racha de días cumpliendo metas</li>
+  </ul>
+
+  <h2>¿Dónde se guardan los datos?</h2>
+  <p>Todos los datos se guardan <strong>exclusivamente en tu navegador</strong> usando la API <code>chrome.storage.local</code>. Ningún dato se envía a servidores externos, ni a terceros, ni al desarrollador de la extensión.</p>
+
+  <h2>¿Compartimos datos con terceros?</h2>
+  <p>No. TabMemory no vende, transfiere ni comparte ningún dato con terceros bajo ninguna circunstancia.</p>
+
+  <h2>¿Qué permisos usa la extensión y por qué?</h2>
+  <ul>
+    <li><strong>tabs:</strong> Para detectar qué pestaña está activa y registrar el dominio visitado.</li>
+    <li><strong>storage:</strong> Para guardar el historial de tiempo y las metas localmente en el navegador.</li>
+    <li><strong>alarms:</strong> Para guardar el progreso cada 30 segundos y evitar pérdida de datos.</li>
+    <li><strong>idle:</strong> Para detectar inactividad del usuario y no contar ese tiempo como navegación activa.</li>
+    <li><strong>notifications:</strong> Para avisar al usuario cuando está por alcanzar o supera un límite de tiempo configurado.</li>
+  </ul>
+
+  <h2>¿Podés eliminar tus datos?</h2>
+  <p>Sí. Podés eliminar todos los datos de TabMemory en cualquier momento desinstalando la extensión, lo que borra automáticamente toda la información almacenada localmente.</p>
+
+  <h2>Cambios a esta política</h2>
+  <p>Si realizamos cambios significativos a esta política, actualizaremos la fecha en la parte superior de esta página.</p>
+
+  <h2>Contacto</h2>
+  <p>Si tenés preguntas sobre esta política de privacidad, podés contactarnos por email.</p>
+</body>
+</html>
